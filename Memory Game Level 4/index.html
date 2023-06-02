@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Memory Game</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Similar Looking Flags Matching</h1>
+  <h2>Level 4</h2>
+  <h3>Match pairs of card by flipping over two at a time. Match the country's flag picture with its corresponding card that displays the country name and some interesting information. Try to complete the game with the fewest number of turns.</h3>
+  <h3>You will be tested on the flags of the following countries:</h3>
+  <h3>
+    <span class="country" data-card="1">Russia</span>
+    <span class="comma">,</span>
+    <span class="country" data-card="3">Slovenia</span>
+    <span class="comma">,</span>
+    <span class="country" data-card="5">Slovakia</span>
+    <span class="comma">,</span>
+    <span class="country" data-card="7">Monaco</span>
+    <span class="comma">,</span>
+    <span class="country" data-card="9">Indonesia</span>
+    <span class="comma">,</span>
+    <span class="country" data-card="11">Poland</span>
+    <span class="comma">,</span>
+    <span class="country" data-card="13">Bahrain</span>
+    <span class="comma">,</span>
+    <span class="country" data-card="15">Qatar</span>.
+  </h3>
+
+  <div class="popup">
+    <img class="flag-image" src="">
+  </div>
+  <div class="score">Turns: 0</div>
+    
+  <div id="table">
+      
+    <button id="start-game-btn" onclick="startGame()">Start Game</button>
+
+    <img id="need-to-improve" src="images/shiba.png">
+    <img id="good-job" src="images/dog-2238012_1280.jpg">
+    <img id="great-job" src="images/animal-6622233_1280.jpg">
+    <img id="perfect-job" src="images/shiba-4407230_1280.jpg">
+
+    <div id="card-container">
+        <div class="card" id="card1"></div>
+        <div class="card" id="card2"></div>
+        <div class="card" id="card3"></div>
+        <div class="card" id="card4"></div>
+        <div class="card" id="card5"></div>
+        <div class="card" id="card6"></div>
+        <div class="card" id="card7"></div>
+        <div class="card" id="card8"></div>
+        <div class="card" id="card9"></div>
+        <div class="card" id="card10"></div>
+        <div class="card" id="card11"></div>
+        <div class="card" id="card12"></div>
+        <div class="card" id="card13"></div>
+        <div class="card" id="card14"></div>
+        <div class="card" id="card15"></div>
+        <div class="card" id="card16"></div>
+    </div>
+
+    <button id="restart-game-btn" onclick="restartGame()">Restart</button>
+
+  </div>
+  
+  <script src="script.js"></script>
+  <script src="confetti.js"></script> <!-- took this code from https://www.cssscript.com/confetti-falling-animation/ -->
+
+</body>
+</html>
