@@ -16,7 +16,7 @@ View project demo at [https://mflanagan924.github.io/memory-card-game/](https://
 
 Homepage
 
-<img src="https://raw.githubusercontent.com/mflanagan924/generic-website/main/Preview.PNG"></img>
+<img src="https://raw.githubusercontent.com/mflanagan924/memory-card-game/main/Preview.PNG"></img>
 
 ## Instructions
 
