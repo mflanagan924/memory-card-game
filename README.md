@@ -20,4 +20,15 @@ Homepage
 
 ## Instructions
 
-Start exploring by opening the index.html document
+Try matching the country flag to the country name. This game is not as easy as it seems because it is testing you on flags that look very similar.
+
+Level 1: Norway
+          Iceland
+Kenya
+South Sudan
+Italy
+Mexico
+Peru
+Canada
+
+
