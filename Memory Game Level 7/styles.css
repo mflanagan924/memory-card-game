@@ -1,0 +1,224 @@
+h1 {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 5vw;
+}
+
+h2 {
+  margin-top: -2vw;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  color: white;
+  margin-right: 4vw;
+  margin-left: 4vw;
+  font-size: 3vw;
+}
+
+h3 {
+  display: flex;
+  justify-content: center;
+  color: white;
+  margin-right: 4vw;
+  margin-left: 4vw;
+}
+
+/* This is where the cards are placed */
+#table {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  max-width: 1500px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  position: relative;
+}
+
+body {
+  background-image: url(images/background.png);
+  background-color: rgb(127, 76, 47);
+  background-repeat: repeat-y;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+}
+
+#card-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  padding-right: 10px;
+  padding-left: 10px; 
+  justify-content: center;
+}
+
+.card {
+  background-color: rgb(0,174,255);
+  width: 9vw;
+  max-width: 150px;
+  max-height: 250px;
+  height: 15vw;
+  border: none;
+  margin-left: 4.5px;
+  margin-right: 4.5px;
+  margin-top: 4.5px;
+  margin-bottom: 4.5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-right: 5px;
+  padding-left: 5px;
+  border-radius: 10px;
+  color: white;
+}
+
+/* Flip animation */
+.flipped {
+  transform: rotateY(360deg);
+  transition: transform .75s ease;
+}
+
+/* Reverse flip animation */
+.reverse-flipped {
+  transform: rotateY(0deg);
+  transition: transform .75s ease;
+}
+
+.card img {
+  max-width: 95%;
+  max-height: 100%;
+}
+
+.flipped-card img {
+  max-width: 95%;
+  max-height: 100%;
+}
+
+.country-name {
+  font-size: clamp(8px, 1.5vw, 24px);
+}
+
+.card-info {
+  font-size: clamp(6px, 1vw, 14px);
+}
+
+#start-game-btn {
+ position: absolute;
+ top: 32%;
+ left: 35%;
+ z-index: 9999;
+ width: 30%;
+ height: 20%;
+ border-radius: 1vw;
+ background-color: green;
+ border: none;
+ color: white;
+ font-size: clamp(20px, 5vw, 80px);
+}
+
+#restart-game-btn{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-right: auto;
+ margin-left: auto;
+ background-color: red;
+ border: none;
+ color: white;
+ font-size: clamp(15px, 1.5vw, 30px);
+ width: 200px;
+ height: 50px;
+ border-radius: 10px;
+ margin-top: 20px;
+ margin-bottom: 20px;
+}
+
+.score {
+  color: white;
+  font-size: clamp(24px, 8vw, 48px);
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  background-color: green;
+  width: 500px;
+  margin-right: auto;
+  margin-left: auto;
+  height: 80px;
+  align-items: center;
+  border-radius: 5px;
+}
+
+#need-to-improve{
+  width: 35%;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: solid white 10px;
+}
+
+#good-job{
+  width: 35%;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: solid white 10px;
+}
+
+#great-job{
+  width: 35%;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: solid white 10px;
+}
+
+#perfect-job{
+  width: 35%;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: solid white 10px;
+}
+
+.popup {
+  display: none; /* Add this line to hide the popup initially */
+  justify-content: center;
+  align-items: bottom;
+  position: fixed;
+  top: 100%;
+  left: 50%;
+  transform: translate(10px, -110%);
+  background-color: rgb(0, 174, 255);
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  padding-bottom: 0; /* Remove the padding at the bottom */
+}
+
+.flag-image {
+  max-width: 100px;
+  max-height: 75px;
+  margin-bottom: 10px;
+}
+
+.country:hover + .popup {
+  display: block;
+}
+
+.country:hover {
+  cursor: pointer;
+  color: rgb(0, 174, 255);
+}
+
+.comma {
+  margin-right: 5px;
+}
