@@ -22,10 +22,10 @@ Homepage
 
 Try matching the country flag to the country name. This game is not as easy as it seems because it is testing you on flags that look very similar.
 
-Level 1: Norway, Iceland, Kenya, South Sudan, Italy, Mexico, Peru, and Canada
-Level 2: Columbia, Venezuela, Ecuador, USA, Malaysia, Liberia, Hungary, and Tajikistan
-Level 3: Andorra, Moldova, India, Niger, Bolivia, Ghana, Haiti, and Liechtenstein
-Level 4: Russia, Slovenia, Slovakia, Monaco, Indonesia, Poland, Bahrain, and Qatar
-Level 5: Argentina, El Salvador, Nicaragua, Honduras, Netherlands, Luxembourg, Croatia, and Paraguay
-Level 6: Egypt, Iraq, Yemen, Sudan, and Syria
-Level 7: Australia, New Zealand, Chad, Romania, Guinea, Mali, Ireland, and Ivory Coast
+* Level 1: Norway, Iceland, Kenya, South Sudan, Italy, Mexico, Peru, and Canada
+* Level 2: Columbia, Venezuela, Ecuador, USA, Malaysia, Liberia, Hungary, and Tajikistan
+* Level 3: Andorra, Moldova, India, Niger, Bolivia, Ghana, Haiti, and Liechtenstein
+* Level 4: Russia, Slovenia, Slovakia, Monaco, Indonesia, Poland, Bahrain, and Qatar
+* Level 5: Argentina, El Salvador, Nicaragua, Honduras, Netherlands, Luxembourg, Croatia, and Paraguay
+* Level 6: Egypt, Iraq, Yemen, Sudan, and Syria
+* Level 7: Australia, New Zealand, Chad, Romania, Guinea, Mali, Ireland, and Ivory Coast
